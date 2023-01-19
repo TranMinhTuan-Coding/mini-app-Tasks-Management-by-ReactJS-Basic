@@ -1,0 +1,463 @@
+.app-title-box{
+    background-color: rgb(39, 238, 39);
+    height: 120px;
+
+    border: 1px solid blue;
+    border-radius: 20px 20px 20px 20px;
+
+    position: relative;
+    top: 5px;
+}
+.app-title{
+    width: 100%;
+    height: 50px;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 33px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+
+    position: absolute;
+    top: 30px;
+    left: 0px;
+}
+/* main-actions-app */
+.main-actions-app{
+    display: flex;
+    position: relative;
+}
+/* adding-tasks-box */
+.adding-tasks-box{
+    width: 502px;
+    height: 300px;
+
+    border: 1px solid black;
+    border-radius: 15px 15px 15px 15px;
+
+    position: absolute;
+    left: -120px;
+}
+/* adding-tasks-box-title */
+.adding-tasks-box-title{
+    background-color: rgb(205, 114, 114);
+    width: 100%;
+    height: 50px;
+
+    border-radius: 15px 15px 0px 0px;
+
+    position: absolute;
+    top: 0px;
+}
+.adding-tasks-box-title p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 26px;
+    text-align: left;
+
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.adding-tasks-box-title button{
+    height: 42px;
+    width: 36px;
+    background-color: aqua;
+    color: black;
+    border-radius: 20px 20px 20px 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 26px;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 6px;
+}
+.adding-tasks-box-title button:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+/* adding-tasks-box-name */
+.adding-tasks-box-name{
+    width: 98%;
+    height: 90px;
+
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.adding-tasks-box-name p{
+    width: 100%;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 26px;
+    text-align: left;
+
+    position: absolute;
+    top: 0px;
+}
+.adding-tasks-box-name input{
+    border-radius: 10px 10px 10px 10px;
+    height: 50px;
+    width: 100%;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: left;
+
+    position: absolute;
+    bottom: 0px;
+}
+/* adding-tasks-box-status */
+.adding-tasks-box-status{
+    width: 98%;
+    height: 90px;
+
+    position: absolute;
+    top: 154px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.adding-tasks-box-status p{
+    width: 100%;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 26px;
+    text-align: left;
+
+    position: absolute;
+    top: 0px;
+}
+.adding-tasks-box-status select{
+    border-radius: 10px 10px 10px 10px;
+    height: 50px;
+    width: 100%;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: left;
+
+    position: absolute;
+    bottom: 0px;
+}
+/* adding-tasks-box-buttons */
+.adding-tasks-box-buttons{
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    position: absolute;
+    bottom: 0px;
+}
+.adding-tasks-box-submit-button{
+    height: 47px;
+    width: 100px;
+    background-color: aqua;
+    color: black;
+    border-radius: 10px 10px 10px 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 26px;
+
+    cursor: pointer;
+}
+.adding-tasks-box-submit-button:hover{
+    background-color: black;
+    color: white;
+}
+.adding-tasks-box-clear-button{
+    height: 47px;
+    width: 85px;
+
+    background-color: aqua;
+    color: black;
+    border-radius: 10px 10px 10px 10px;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 26px;
+
+    cursor: pointer;
+}
+.adding-tasks-box-clear-button:hover{
+    background-color: black;
+    color: white;
+}
+/* tasks-infors-management */
+/* adding-tasks-button */
+.adding-tasks-button{
+    height: 60px;
+    width: 550px;
+    margin-bottom: 20px;
+
+    display: flex;
+}
+.adding-tasks-button button{
+    height: 55px;
+    width: 250px;
+
+    border: 2px solid blue;
+    border-radius: 15px 15px 15px 15px;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+
+    background-color: aqua;
+    color: black;
+
+    cursor: pointer;
+}
+.adding-tasks-button button:hover{
+    background-color: black;
+    color: wheat;
+}
+/* tasks-searching-filter-box */
+.tasks-searching-filter-box{
+    display: flex;
+    justify-content: space-around;
+
+    width: 850px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+/* tasks-searching */
+.tasks-searching{
+    width: 80%;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+
+    margin-right: 10px;
+}
+.tasks-searching input{
+    border-radius: 10px 10px 10px 10px;
+    height: 100%;
+    width: 99%;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: left;
+}
+.tasks-searching button{
+    height: 59px;
+    width: 71px;
+    background-color: aqua;
+    color: black;
+    border-radius: 10px 10px 10px 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+.tasks-searching button:hover{
+    background-color: black;
+    color: white;
+}
+/* tasks-filter */
+.tasks-filter{
+    width: 20%;
+    height: 100%;
+
+    position: relative;
+}
+.sort-button{
+    height: 36px;
+    width: 168px;
+    background-color: aqua;
+    color: black;
+    border-radius: 10px 10px 10px 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 23px;
+    cursor: pointer;
+
+    position: absolute;
+    bottom: 0px;
+}
+.sort-button:hover{
+    background-color: black;
+    color: white;
+}
+/* sort-types-box */
+.sort-types-box{
+    background-color: aqua;
+    width: 205px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 10px 10px 0px 0px;
+
+    position: absolute;
+    top: -96px;
+    left: 696px;
+}
+.sort-types-box-title{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+}
+.sort-types{
+    background-color: aqua;
+    width: 205px;
+    height: 90px;
+
+    border: 2px solid black;
+    border-top: none;
+    border-radius: 0px 0px 10px 10px;
+
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: left;
+    cursor: pointer;
+
+    display: none;
+
+    position: absolute;
+    top: 27px;
+    left: -2px;
+}
+.sort-types-box:hover .sort-types{
+    display: block;
+}
+.sort-types li{
+    width: 77%;
+    color: black;
+    border-radius: 10px 10px 10px 10px;
+
+    position: relative;
+}
+.sort-types li:hover{
+    color: brown;
+    font-weight: bolder;
+    font-size: 15px;
+}
+/* chosen-sort-type */
+.chosen-sort-type{
+    color: brown;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.chosen-sort-type::after{
+    content: "";
+    background-color: black;
+    border-radius: 5px 5px 5px 5px;
+    width: 126px;
+    height: 2px;
+
+    position: absolute;
+    top: 18px;
+    left: -7px;
+}
+/* table */
+.tasks-infor-table{
+    width: 1100px;
+    border: 2px solid rgb(43, 43, 148);
+    border-radius: 0px 0px 20px 20px;
+}
+/* task-actions-fix-button */
+.task-actions-fix-button{
+    height: 37px;
+    width: 72px;
+    background-color: aqua;
+    color: black;
+    border-radius: 10px 10px 10px 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+
+    margin-right: 5px;
+}
+.task-actions-fix-button:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+.task-actions-delete-button{
+    height: 37px;
+    width: 72px;
+    background-color: aqua;
+    color: black;
+    border-radius: 10px 10px 10px 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+.task-actions-delete-button:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+/* table-task-name-input */
+.table-task-name-input{
+    border-radius: 10px 10px 10px 10px;
+    height: 100%;
+    width: 100%;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: left;
+}
+/* table-select */
+.table-select{
+    border-radius: 10px 10px 10px 10px;
+    height: 33px;
+    width: 50%;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: left;
+}
+/* task-table-status */
+.task-table-status{
+    border-radius: 10px 10px 10px 10px;
+
+    height: 30px;
+    width: 100px;
+}
+.task-table-status-active{
+    width: 100%;
+    cursor: pointer;
+
+    color: black;
+    background-color: burlywood;
+    border: 2px solid black;
+
+
+    border-radius: 10px 10px 10px 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+.task-table-status-hide{
+    width: 100%;
+    cursor: pointer;
+
+    color: black;
+    background-color: greenyellow;
+    border: 2px solid black;
+
+    border-radius: 10px 10px 10px 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
